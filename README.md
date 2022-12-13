@@ -1,3 +1,3 @@
 Project folders
 
-project 01 - Web Jngkook
+project 01 - Web Jungkook
