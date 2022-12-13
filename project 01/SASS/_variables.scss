@@ -1,0 +1,12 @@
+// Background color 
+$backgroud-color:#fff;
+
+// color 
+$colors:(main:#000,secondary:#fff,other:#521751);
+
+// GFonts
+$roboto:'Roboto', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+// Border
+$border:0.05rem solid map-get($map: $colors, $key:other );

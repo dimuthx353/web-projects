@@ -1,0 +1,62 @@
+// Variables
+@import './variables';
+
+// Functions
+@import './functions';
+
+// GFonts (Regular 400 )
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+// Reset
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $poppins;
+  background-color: $backgroud-color;
+  color: map-get($map: $colors, $key: main);
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: map-get($map: $colors, $key: main);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button,
+select,
+input {
+  font-family: $poppins;
+  cursor: pointer;
+  // display: block;
+  // border: $border;
+  text-transform: capitalize;
+}
+
+::placeholder {
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+
+// Common Rules For Classes
+
+.grid-container {
+  display: grid;
+}
+
+.flex-container {
+  display: flex;
+}
